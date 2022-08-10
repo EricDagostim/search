@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background-image: url('img/img-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    height: 50vh;
+}
+
+.footer {
+    height: 42vh;
+}
+
+.content {}
+
+.icon {
+    width: 15px;
+    padding: 15px;
+}
+
+#input:focus {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search input {
+    border: none !important;
+    height: 45px;
+    width: 460px;
+}
+
+.search {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #fff;
+    border-radius: 35px;
+
+}
