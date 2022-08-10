@@ -12,12 +12,12 @@
 <body>
 
     <div class="brand">
-
+        <div class="google-logo"></div>
     </div>
 
     <div class="search">
-        <img class="icon glass" src="img\icon-search.svg" alt="Icon lupa">
-        <input id="input" placeholder="Pesquise no Google ou digite um URL" type="text">
+        <img id="i-glass" class="icon glass" src="img\icon-search.svg" alt="Icon lupa">
+        <input id="i-search" placeholder="Pesquise no Google ou digite um URL" type="text">
         <img class="icon mic" src="img\icon-mic.svg" alt="Icon microfone">
     </div>
 
@@ -28,3 +28,14 @@
 </body>
 
 </html>
+<script>
+    var input = document.getElementById("i-search");
+
+    input.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("i-glass").click();
+        }
+    });
+
+</script>
