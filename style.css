@@ -28,7 +28,9 @@ body {
     background-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100%;
-    background-color: #eeeeee;
+
+
+
     height: 100px;
     width: 300px;
     margin-bottom: 20px;
